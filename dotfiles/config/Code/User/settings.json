@@ -1,0 +1,26 @@
+{
+    "window.zoomLevel": 0,
+    "window.menuBarVisibility": "toggle",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'FuraCode Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "terminal.integrated.fontFamily": "'FuraCode Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "C_Cpp.updateChannel": "Insiders",
+    "workbench.colorTheme": "Academy City",
+    "workbench.iconTheme": "material-icon-theme",
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "editor.wordWrap": "on",
+
+    "[typescript]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[scss]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    }
+}

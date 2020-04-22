@@ -1,0 +1,41 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: dotfiles
+  keepdot: false
+  link_dotfile_default: nolink
+  link_on_import: nolink
+  longkey: false
+dotfiles:
+  d_i3:
+    src: config/i3
+    dst: ~/.config/i3
+  f_wallpaper.png:
+    src: config/wallpaper.png
+    dst: ~/.config/wallpaper.png
+  f_kitty.conf:
+    src: config/kitty/kitty.conf
+    dst: ~/.config/kitty/kitty.conf
+  d_polybar:
+    src: config/polybar
+    dst: ~/.config/polybar
+  f_zshrc:
+    src: zshrc.zsh
+    dst: ~/.zshrc
+  f_compton.conf:
+    src: config/compton.conf
+    dst: ~/.config/compton.conf
+  f_settings.json:
+    src: config/Code/User/settings.json
+    dst: ~/.config/Code/User/settings.json
+profiles:
+  nitro:
+    dotfiles:
+    - d_i3
+    - f_wallpaper.png
+    - f_kitty.conf
+    - d_polybar
+    - f_zshrc
+    - f_compton.conf
+    - f_settings.json
