@@ -1,8 +1,7 @@
 CactusBlue's dots
 =================
 
-How to use
-----------
+## How to use
 
 Following packages are required:
 - i3wm resloved fork (Rounded corners)
@@ -13,5 +12,5 @@ Following packages are required:
 
 Install with `dotdrop`.
 
-# Screenshots
+## Screenshots
 ![Screenshot](./images/screenshot.png)
